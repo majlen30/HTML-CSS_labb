@@ -1,0 +1,56 @@
+:root {
+  --main-bg-color: #646f4b;
+  --main-text-color: #fff5ee;
+  --main-color-2: #abbd80;
+  --main-color-3: #4e573b;
+  --light-bg-color: #fff5eecc;
+  --white-keys-color: #fff5ee;
+}
+
+section {
+  background-color: var(--main-color-2);
+}
+
+.teachers h2 {
+  color: black;
+}
+
+.anton {
+  margin-top: 3em;
+}
+
+@media (min-width: 700px) {
+  main {
+    width: 90%;
+    margin: auto;
+  }
+
+  .teachers {
+    padding: 2em;
+  }
+
+  .anton,
+  .tone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .anton {
+    flex-direction: row-reverse;
+  }
+
+  .anton img,
+  .tone img {
+    min-width: 200px;
+    max-width: 60%;
+  }
+
+  .anton p {
+    margin-right: 3em;
+  }
+
+  .tone p {
+    margin-left: 3em;
+  }
+}
